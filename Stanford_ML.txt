@@ -1,0 +1,76 @@
+Linear Regression
+ - cost function
+ - gradient descent
+
+Logistic Regression
+ - modified cost function from linear regression
+ - apply regularization to stop overfitting the data, this basically implements a cost for high values of theta
+
+Neural Networks
+ - non-linear hypotheses
+ - back-propogation algorithm
+ - gradient checking (numerical) can be helpful to ensure your algorithm is performing as expected
+
+Error
+ - precision and recall
+ - error metrics for skewed classes
+ - learning curves
+
+
+Support Vector Machines (SVMs)
+ - large margin classifier
+ - kernels
+
+Unsupervised Learning
+
+Clustering 
+ - k-means clustering
+ - principal component anlysis (PCA)
+
+
+
+Anomaly detection (unsupervised learning)
+ - very small number of positive examples, new anomalies won't look like what we've seen before.
+ - if data is non-guassian, convert using log, sqrt
+ - choose features that might take on unusually large or small values in the event of an anomaly (can be combinations of features)
+ - multivariate guassian distribution allows you to fit ellipse and rotated distributions.
+ - MGD automatically captures correlations between features (e.g. x3 = x1/x2)
+ - comput more expensive
+
+
+Learning with Large Datasets
+- one reason ML is better is because increased size of datasets
+
+Stochastic Gradient Descent
+  - allows for scaling of gradient descent for large datasets
+ - let's look at single examples instead of as a batch 
+
+Mini-batch gradient 
+ - works between batch and stochastic.
+ - using a small size of parameters decrease of risk of moving in wrong direction
+ - can parralelise
+
+Online Learning
+ - continuous stream of data, want to update this as we go
+ - update theta with each data point
+ - algorithm can adapt to change in consumer preferences (as long as alpha isn't decreasing)
+ - allows you to learn probability distribution
+
+Map Reduce
+ - can scale even larger than stochastic gradient descent
+ - break up training set and perform calculations on different computers finally combining with core
+ 
+
+Photo OCR 
+ - pipeline design
+ - ML pipeline
+ - flow of information/stages of dissemination
+ - sliding window detection
+ - expansion operation
+
+Artificial Data Synthesis
+ - How much work would it take to get 10x as much data as we currently have?
+ 
+Ceiling Analysis
+
+
